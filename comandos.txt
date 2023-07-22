@@ -1,0 +1,17 @@
+npm init
+npm install socket.io
+npm install express
+npm install mongoose
+npm install serial-number
+npm install randomstring
+npm install count-by
+npm install chart.js
+npm install request
+
+npm install --save @google-cloud/storage
+
+npm install heroku
+heroku login -i
+heroku git:remote -a voto-openfox
+git push heroku master
+heroku open
